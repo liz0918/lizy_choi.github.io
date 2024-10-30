@@ -1,0 +1,181 @@
+---
+title: "CV"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+**EDUCATION** =
+
+Columbia University, Mailman School of Public Health (Expected)
+*Graduation Spring 2026*
+
+Masters of Science in Biostatistics, Concentration in Statistical
+Genetics
+
+UC Berkeley, College of Chemistry *Graduation Spring 2023*
+
+Bachelor of Science in Chemical Biology, Minor in Data Science
+
+**SKILLS**
+
+*Technical:* 
+Proficient in SQL, Python, Tableau, and R and
+using Seurat, SoupX, and Plotly libraries
+
+**PROFESSIONAL EXPERIENCE**
+
+Seoul National University - Lab of Immune Tolerance *Jun 2024 - Aug
+2024* Research Intern Seoul, South Korea
+
+• Analyzed single-cell RNA sequencing (scRNA-seq) data from patient skin
+lesions pre-treatment, during treatment, and post-treatment for
+psoriasis
+
+• Optimized pipeline code to process and analyze large-scale scRNA-seq
+data, identifying key transcriptional changes across treatment stage
+
+• Improved pipeline usability and reproducibility, reducing the setup
+time by 10% through modular coding and documentation enhancements.
+
+Genentech *Jun 2023 - Jun 2024* Research Associate I South San
+Francisco, CA
+
+• Determined BrdU activation of peripheral blood mononuclear cells
+(PBMCs) for 100+ novel drugs to evaluate immunogenicity risk
+
+• Employed single-cell genomic profiling techniques to investigate
+cellular drug response, identifying novel drug-target interactions and
+potential biomarkers
+
+• Conducted ELISPOT assays to assess cellular immune responses,
+providing valuable insights into CD4 T-cell proliferation and cytokine
+production in response to novel drugs
+
+• Refined a standardized PBMC isolation protocol to consistently yield
+high-quality cell populations, achieving a 95% success rate and
+viability
+
+• Developed and implemented custom automation scripts that streamlined
+data processing, analysis, and reporting processes
+
+Samsung Bioepis, Inc. *Jul 2022— Aug 2022* MSAT Manufacturing Science 2
+Intern Incheon, South Korea
+
+• Coordinating in the design and execution of process characterization
+and validation studies abiding by cGMP and SOPs
+
+• Assisted in laboratory operations, including buffer and chromatography
+column preparation, analytical equipment maintenance, and purification
+performance observation
+
+• Programmed on UNICORN software to design column-specific methodology
+to optimize monoclonal antibodies yield on AKTA chromatography systems
+
+• Conducted extensive literature review in troubleshooting low yields of
+expired resin to elongate its lifetime for cost-effective usage.
+
+Miller Lab, UC Berkeley *Aug 2021— Dec 2022* Research Assistant
+Berkeley, CA
+
+• Developed Python code to automate photon counting for cardiomyocytes,
+enabling the extraction of valuable Fluorescence Lifetime Imaging
+Microscopy (FLIM) data
+
+• Developed the workflow for the initial synthesis of liposomes,
+enabling the exploration of lipid composition’s effect on the behavior
+of fluorescent dyes
+
+• Performed qualitative characterization of liposome using an inverted
+microscope and conducted in-depth analysis of their fluorescence
+lifetime
+
+• Utilized Dynamic Light Scattering (DLS) to ensure data consistency in
+the comprehensive characterization of liposomes
+
+Fellowship Proposal \| General Biochemistry and Molecular Biology
+Laboratory UC Berkeley
+
+Conservation of functionality in Cin8 between Chaetomium thermophilum
+and Saccharomyces cerevisiae for future cancer research
+
+• Conducted molecular cloning, PCR, cell culture, western-blot, protein
+purification, and selection of yeast Cin8p, followed by characterization
+with analytical in vitro and in vivo assays, including ATPase assay,
+NADH assay, affinity chromatography, and fluorescent imaging to track
+the localization of GFP labeled constructs
+
+• Performed literature search to design hypotheses and experiments to
+testify Cin8p’s structural and functional conservation across species
+and utilized collected data for analysis report and mock-grant proposal.
+
+**LEADERSHIP**
+
+Project Manager \| Species Frontal Lobe Size Prediction Model *Jan
+2023 - May 2023*
+
+• Made critical decisions on model development approaches and variable
+selection, resulting in a final predictive model with 90% accuracy
+
+• Demonstrated adaptability to evolving project requirements and
+embraced feedback from team members, resulting in successful model
+iterations and improvements
+
+• Delivered engaging presentations and comprehensive reports on the
+model development process and findings
+
+• Fostered effective communication and teamwork to integrate expertise
+and achieve an accurate predictive model
+
+Project Manager \| Philippines Nutritional Inadequacy Identification
+Project *Jan 2023 - May 2023*
+
+Github repository: github.com/lizchoi918/indp_project
+
+• Spearheaded a multidisciplinary team in conducting a comprehensive
+needs assessment, meticulously identifying prevalent nutritional
+deficiencies in the Bukidnon region, Philippines
+
+• Analyzed and interpreted the collected data, unveiling actionable
+insights to inform targeted interventions
+
+• Orchestrated the design and implementation of sustainable nutrition
+education programs, tailored to address the distinctive needs of
+vulnerable groups
+
+• Conducted periodic project assessments to quantitatively measure
+impact and discern areas for continuous refinement
+
+Alzheimer’s Association *Dec 2019 – Nov 2022* Member/Volunteer Berkeley,
+CA
+
+• Actively participated and successfully raised \$663 in the annual Walk
+to End Alzheimer’s in San Francisco, supporting dementia patients and
+advancing research efforts aimed at treatment and prevention
+
+• Organized and participated in 10+ monthly volunteer visits to the
+local nursing home, fostering meaningful connections with residents and
+improving overall resident well-being
+
+American Chemical Society *Aug 2020—Aug 2021* Media Committee Member
+Berkeley, CA
+
+• Coordinated career development work for 30+ networking events to
+support professional development of 100+ ACS members
+
+• Engaged with club members, faculty, and potential attendees during
+events, fostering strong relationships and expanding the club's network,
+resulting in a 10% increase in event partnerships with other academic
+organizations
+
+• Coordinated event campaigns within strict deadlines, ensuring all
+promotional materials were delivered on time, resulting in a 100%
+on-time campaign delivery rate
+
+• Made data-driven decisions on campaign target audiences and
+promotional channels, leading to a 15% increase in event attendance from
+the previous year

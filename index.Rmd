@@ -1,0 +1,13 @@
+---
+title: "Homework 4"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+This is a *website* dedicated for P8105 Data Science Homework 4, created by Jeong Yun (Lizy) Choi.
+
+[This page](about.html) includes Lizy's CV and [this page](dashboard.html) contains dashboard that demonstrates some interesting interactive visualization regarding NY NOAA data.
+
+To see the work I have done, please refer to my [GitHub](https://github.com/liz0918) page. Any inquiries or questions, please [email](mailto:liz.choi0918@gmail.com) me or reach me via my [Linkedin](https://www.linkedin.com/in/jeong-yun-lizy-choi-850974197/).
