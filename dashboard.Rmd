@@ -45,7 +45,8 @@ weather_df =
 weather_df %>%
   mutate(text_label = str_c("Minimum Temperature: ", tmin, " Maximum Temperature: ", tmax)) %>% 
   plot_ly(
-    x= ~tmin, y= ~tmax, color = ~name, text= ~text_label, alpha = 0.5, type = "scatter", mode = "markers", colors= "viridis")
+    x= ~tmin, y= ~tmax, color = ~name, text= ~text_label, alpha = 0.5, type = "scatter", mode = "markers", colors= "viridis") %>% 
+  layout(title = 'Relationship between Minimum and Maximum Temperature across different regions', xaxis = list(title = 'Minimum Temperature'), yaxis = list(title = 'Maximum Temperature'))
 ```
 
 Column {data-width=350}
@@ -56,7 +57,8 @@ Column {data-width=350}
 ```{r, message = FALSE}
 weather_df %>% 
   mutate(name = fct_reorder(name, tmax), na_rm = TRUE) %>% 
-  plot_ly(y= ~tmax, x= ~name, type = "box", color = ~name, colors = "viridis")
+  plot_ly(y= ~tmax, x= ~name, type = "box", color = ~name, colors = "viridis") %>% 
+  layout(title = 'Maximum Temperature across different regions', xaxis = list(title = 'Regions'), yaxis = list(title = 'Maximum Temperature'))
 ```
 
 ### Chart C
@@ -64,6 +66,7 @@ weather_df %>%
 ```{r, message = FALSE}
 weather_df %>% 
   mutate(date_prcp = str_c("Month: ", month, " Precipitation: ", prcp)) %>% plot_ly(
-    x = ~month, y= ~prcp, color = ~name, text = ~date_prcp, type = "bar", colors = "viridis")
+    x = ~month, y= ~prcp, color = ~name, text = ~date_prcp, type = "bar", colors = "viridis") %>% 
+  layout(title = 'Precipitation level throughout the Month', xaxis=list(title = "Month"), yaxis = list(title = 'Precipitation' ))
 ```
 
