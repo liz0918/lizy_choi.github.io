@@ -43,7 +43,7 @@ weather_df =
 
 ```{r, message = FALSE}
 weather_df %>%
-  mutate(text_label = str_c("Minimum Temperature: ", tmin, "Maximum Temperature: ", tmax)) %>% 
+  mutate(text_label = str_c("Minimum Temperature: ", tmin, " Maximum Temperature: ", tmax)) %>% 
   plot_ly(
     x= ~tmin, y= ~tmax, color = ~name, text= ~text_label, alpha = 0.5, type = "scatter", mode = "markers", colors= "viridis")
 ```
