@@ -9,7 +9,7 @@ editor_options:
     wrap: 72
 ---
 
-**EDUCATION** =
+**EDUCATION**
 
 Columbia University, Mailman School of Public Health (Expected)
 *Graduation Spring 2026*

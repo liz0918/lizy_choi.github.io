@@ -22,18 +22,21 @@ library(plotly)
 ```
 
 ```{r}
-data("ny_noaa")
-
-ny_noaa =
-  nyc_airbnb %>% 
-  mutate(rating = review_scores_location / 2) %>% 
-  select(neighbourhood_group, neighbourhood, rating, price, room_type, lat, long) %>% 
-  filter(
-    neighbourhood_group == 'Manhattan',
-    price %in% 100:500,
-    room_type == "Entire home/apt"
-  ) %>% 
-  drop_na(rating)
+weather_df = 
+  rnoaa::meteo_pull_monitors(
+    c("USW00094728", "USW00022534", "USS0023B17S"),
+    var = c("PRCP", "TMIN", "TMAX"), 
+    date_min = "2021-01-01",
+    date_max = "2022-12-31") |>
+  mutate(
+    name = recode(
+      id, 
+      USW00094728 = "CentralPark_NY", 
+      USW00022534 = "Molokai_HI",
+      USS0023B17S = "Waterhole_WA"),
+    tmin = tmin / 10,
+    tmax = tmax / 10) |>
+  select(name, everything())
 ```
 
 ### Chart A
